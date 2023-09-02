@@ -1,0 +1,205 @@
+/* import font from googlefonts*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a fresh background color and font styles for the entire page */
+body {
+    background-color: #f9f7f7;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Style the header with a different background color, centered text, and shadow */
+header {
+    background-color: #ed6c63;
+    text-align: center;
+    padding: 1rem 0;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the header h1 for a unique title */
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1.5rem;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    /* font-weight: bold; */
+    transition: color 0.3s;
+}
+
+/* Style the main content container */
+body>h1 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Style the main navigation menu */
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 2rem;
+}
+
+/* Style the section with a light background, padding, and shadow */
+section {
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 12px;
+}
+
+/* Style the list within the section */
+section ul {
+    padding-left: 2rem;
+}
+
+section header {
+    margin-bottom: 1.5rem;
+}
+
+header h3 {
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+section ul li {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Style the image within the section */
+section figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+/* Add responsive design for smaller screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul li {
+        margin: 0 1rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+}
+
+/* Style the main content container for the signup page */
+.signup-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the signup form */
+.signup-container h2 {
+    font-size: 1.5rem;
+    color: #ed6c63;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.signup-container span {
+    letter-spacing: 0.1rem;
+}
+
+.input-container {
+    margin-bottom: 1rem;
+}
+
+.input-container label {
+    display: block;
+    font-weight: bold;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #ed6c63;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #d65358;
+}
+
+/* Video styling and ensuring user control */
+video {
+    width: 27em;
+    height: 15rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* styling the footer and ensuring it stays bottom of the screen */
+footer {
+    background-color: #ed6c63;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
